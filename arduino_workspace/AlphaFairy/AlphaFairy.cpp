@@ -36,6 +36,9 @@
 #include "FocusEncoder.h"
 #include "AppUtils.h"
 #include "DrawingUtils.h"
+// This library is required to include here
+// Otherwise PlatformIO will not have it in the dependencies
+#include "DNSServer.h"
 
 #ifdef ENABLE_BUILD_LEPTON
 #include <Lepton.h>
