@@ -1,14 +1,13 @@
+#include <Arduino.h>
 #include "FairyMenu.h"
 #include "AlphaFairy.h"
 #include <M5DisplayExt.h>
+#include "PowerMgmt.h"
+#include "DrawingUtils.h"
+#include "TallyLite.h"
+#include "Buttons.h"
 
 extern M5DisplayExt M5Lcd;
-
-extern void gui_startAppPrint(void);
-extern void gui_drawStatusBar(bool);
-extern void gui_showVal(int32_t x, uint32_t txtfmt, Print* printer);
-
-extern void tallylite_task(void);
 
 extern void handle_user_reauth(void); // shows the wifi error screen and offers the user a way of changing wifi password
 

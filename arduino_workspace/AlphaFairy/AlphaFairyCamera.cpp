@@ -1,3 +1,4 @@
+#include <Arduino.h>
 #include "AlphaFairyCamera.h"
 
 extern uint32_t shutter_to_millis(uint32_t x);
